@@ -16,5 +16,15 @@ go build main.go && ./main  // go run main.go
 ```
 cd gin-framework
 go get -u github.com/gin-gonic/gin
+...
+go run main.go
+```
+
+## gin路由实现httprouter
+
+```
+cd gin-httprouter
+go get -u github.com/julienschmidt/httprouter
+...
 go run main.go
 ```
